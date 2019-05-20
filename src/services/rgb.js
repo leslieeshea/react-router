@@ -3,5 +3,5 @@ export const hexFromColor = color => {
 };
 
 export const hexFromRGB = (rgb) => {
-  return `${hexFromColor(rgb.red)}${hexFromColor(rgb.green)}${hexFromColor(rgb.blue)}`;
+  return `#${hexFromColor(rgb.red)}${hexFromColor(rgb.green)}${hexFromColor(rgb.blue)}`;
 };
