@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './header/Header';
-import Red from './red/Red';
-import Blue from './blue/Blue';
-import Yellow from './yellow/Yellow';
-import Color from './color/Color.js';
+import Red from './colors/red/Red';
+import Blue from './colors/blue/Blue';
+import Yellow from './colors/yellow/Yellow';
+import Color from './colors/Color.js';
 
 export default function App() {
   return (
